@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS orders (
+  orderid BIGINT NOT NULL PRIMARY KEY,
+  name VARCHAR(255),
+  userid BIGINT
+);

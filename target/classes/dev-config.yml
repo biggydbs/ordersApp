@@ -1,0 +1,17 @@
+sqlConfig:
+  database: "meesho"
+  user: "root"
+  password: "root"
+  url: "jdbc:mysql://localhost:3306/"
+
+kafkaConfig:
+  brokerList: localhost:9092
+  emailTopic: testEmail
+  invoiceTopic: testInvoice
+  batchSize: 10
+  retryCount: 3
+  inFlightRequest: 1
+  requestTimeout: 15000
+  retryBackOffTime: 1000
+  ackConfig: 1
+  lingerTime: 1000
